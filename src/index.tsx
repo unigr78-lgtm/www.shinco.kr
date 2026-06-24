@@ -1,12 +1,13 @@
 import { Hono } from 'hono'
-import { renderer } from './renderer'
 
 const app = new Hono()
 
-app.use(renderer)
+// SHIN COMPANY 정적 사이트 — Cloudflare Workers 진입점
+// 실제 HTML/CSS/JS 파일은 wrangler.jsonc의 assets 설정으로 서빙됨
+// Worker는 API 라우트 또는 리다이렉트 처리용
 
-app.get('/', (c) => {
-  return c.render(<h1>Hello!</h1>)
+app.get('/health', (c) => {
+  return c.json({ status: 'ok', site: 'shinco.kr' })
 })
 
 export default app
