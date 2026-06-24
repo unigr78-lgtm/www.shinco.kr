@@ -1,5 +1,5 @@
 # prod
-dist/
+# dist/ — Cloudflare Pages 배포를 위해 추적 허용
 
 # dev
 .yarn/
