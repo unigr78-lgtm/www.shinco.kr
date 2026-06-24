@@ -1,0 +1,17 @@
+{
+  "name": "SHIN COMPANY",
+  "short_name": "SHINCO",
+  "description": "산업형 공간컴퓨팅 & AI 디지털 트윈",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07050f",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
