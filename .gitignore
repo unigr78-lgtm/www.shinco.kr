@@ -31,3 +31,8 @@ lerna-debug.log*
 
 # misc
 .DS_Store
+
+# 임시 작업 파일
+serve.cjs
+shinco_index.html
+shinco_source/
